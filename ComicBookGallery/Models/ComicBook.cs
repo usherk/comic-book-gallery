@@ -27,7 +27,7 @@ namespace ComicBookGallery.Models
         {
             get
             {
-                return "../Images/" + SeriesTitle.Replace(" ", "-")
+                return "/Images/" + SeriesTitle.Replace(" ", "-")
                     .ToLower() + "-" + IssueNumber + ".jpg";
             }
         }
